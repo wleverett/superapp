@@ -15,6 +15,9 @@ gem 'omniauth-facebook'
 gem 'simple_form', '>= 3.0.0.rc'
 gem 'thin'
 gem 'zurb-foundation'
+gem 'hirb'
+gem 'protected_attributes'
+
 group :development do
   gem 'better_errors'
   gem 'binding_of_caller', :platforms=>[:mri_19, :mri_20, :rbx]
